@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>숫자 로그인</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="login-container">
+  <div class="input-container">
+    <input type="text" id="password" placeholder="비밀번호" readonly>
+    <button class="cancel-btn" onclick="clearInput()">취소</button>
+  </div>
+
+  <div class="button-grid">
+    <button onclick="press(1)">1</button>
+    <button onclick="press(2)">2</button>
+    <button onclick="press(3)">3</button>
+    <button onclick="press(4)">4</button>
+    <button onclick="press(5)">5</button>
+    <button onclick="press(6)">6</button>
+    <button onclick="press(7)">7</button>
+    <button onclick="press(8)">8</button>
+    <button onclick="press(9)">9</button>
+    <button onclick="press(0)">0</button>
+  </div>
+
+  <button class="confirm-btn" onclick="checkPassword()">확인</button>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
